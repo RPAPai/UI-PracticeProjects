@@ -1,0 +1,28 @@
+{
+  "name": "AssignmentPractice-React",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundled.js",
+  "scripts": {
+    "it": "webpack-dev-server --hot"
+  },
+  "keywords": [],
+  "author": "Roopa Pai",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-plugin-react": "^7.4.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1"
+  }
+}

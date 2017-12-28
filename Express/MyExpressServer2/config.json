@@ -1,0 +1,6 @@
+{
+  "mongodb":{
+    "user":"pai",
+    "pwd":"pai123"
+  }
+}
