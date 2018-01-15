@@ -1,0 +1,38 @@
+// Variable 
+$darkBlue: #2c3e50;
+$lightBlue: #34495e;
+
+/*=Typography=*/
+body {font: 16px 'Ubuntu', sans-serif;}
+/*=Layout=*/
+*,
+*:before,
+*:after {box-sizing: border-box;}
+.accordion {
+  margin: 0 auto;
+  padding: 0;
+  width: 320px;
+  height: auto;
+  list-style-type: none;
+}
+.tab {
+  display: block;
+  padding: .5em;
+  width: 100%;
+  height: 100%;
+  background: $lightBlue;
+  color: darken(#fff, 10%);
+  text-decoration: none;
+  border-bottom: .1em solid lighten($lightBlue, 5%);
+  transition: background .25s;
+  &:hover {background: lighten($lightBlue, 7%);}
+}
+.content {
+  padding: 0 .5em;
+  max-height: 0;
+  background: #272c30;
+  color: #979fa2;
+  overflow: hidden;
+  transition: max-height .25s;
+}
+:target {max-height: 10em;}

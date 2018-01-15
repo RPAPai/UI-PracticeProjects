@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+  
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Helvetica Neue;
+}
+
+.container {
+  width: 500px;
+}
+
+.note {
+  color: gray;
+  margin: 8px 0;
+}
+
+input.active:valid {
+  box-shadow: 0 0 5px 1px green;
+}
+
+input.active:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
