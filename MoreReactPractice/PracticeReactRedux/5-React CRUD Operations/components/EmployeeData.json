@@ -1,0 +1,32 @@
+{
+    "Data": [
+        {
+            "EmployeeRecID": 5001,
+            "EmployeeID": "Emp_1201",
+            "EmployeeName": "Rajesh kumar",
+            "Salary": 50000,
+            "Designation": "IT - Tech Support"
+        },
+        {
+            "EmployeeRecID": 5002,
+            "EmployeeID": "Emp_1202",
+            "EmployeeName": "John Doe",
+            "Salary": 80000,
+            "Designation": "Software Engineer"
+        },
+        {
+            "EmployeeRecID": 5003,
+            "EmployeeID": "Emp_1203",
+            "EmployeeName": "Jane Doe",
+            "Salary": 85000,
+            "Designation": "Software Engineer"
+        },
+        {
+            "EmployeeRecID": 5004,
+            "EmployeeID": "Emp_1204",
+            "EmployeeName": "Rob Conery",
+            "Salary": 85000,
+            "Designation": "Project Instructor"
+        }
+    ]
+}

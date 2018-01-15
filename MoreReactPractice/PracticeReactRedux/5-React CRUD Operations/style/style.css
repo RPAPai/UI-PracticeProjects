@@ -1,0 +1,43 @@
+body{
+    font-family: verdana;
+}
+.header, .form{
+    border: 1px solid silver;
+}
+.title {
+    clear: both;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.center{
+    text-align: center;
+}
+.header{
+    clear: left;
+    background-color: lavender;
+    border-width: 1px;
+}
+.form{
+    clear:left;
+}
+.btn-field{
+    float:right;
+}
+.btn-action{
+    padding:2px 2px;
+    margin: 5px;
+}
+.btn-remove{
+    width:70px;
+}
+.btn-edit{
+    width:50px;
+}
+.row{
+    border: 1px solid silver;
+    border-width: 0 1px 1px 1px; 
+}
+.field{
+    margin:5px 0;
+}
